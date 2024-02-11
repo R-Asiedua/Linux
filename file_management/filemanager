@@ -4,6 +4,7 @@
 
 filepath="/Users/reginatenkorang/Desktop/Azubi_Projects/Linux/file_management"
 
+#Checking if the directory does not exist, ! negates the result of the test and -d tests if the specified path is a diretory
 if [ ! -d "$filepath" ]; then
      echo "Error: Directory does not exist."
      exit 1
